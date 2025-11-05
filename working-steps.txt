@@ -1,0 +1,40 @@
+Requirements
+----------------------------
+python --version
+>check if python present or not
+ Create Your Project Folder
+------------------------------------------------
+Create a folder on Desktop called: SignLanguageProject
+Open it in VS Code:
+
+In VS Code: Click "File" → "Open Folder"
+Navigate to Desktop → Select SignLanguageProject folder
+Click "Select Folder"
+-------------------------------------------------
+ Open Terminal in VS Code
+
+In VS Code, press: Ctrl + ~ (Windows) or Cmd + ~ (Mac)
+
+OR click "Terminal" menu → "New Terminal"
+
+
+You'll see a terminal at the bottom of VS Code
+-------------------------------------------------------------------------
+ Install Required Libraries
+In the VS Code terminal (bottom), copy-paste this command and press Enter:
+bashpip install opencv-python mediapipe numpy scikit-learn pillow
+```
+
+**Wait for installation** (2-5 minutes). You'll see:
+```
+Successfully installed opencv-python-...
+Successfully installed mediapipe-...
+...
+-------------------------------------------------------------------------------------
+ Create Your Python Files
+Now follow my previous instructions:
+
+Click "New File" icon (top left in VS Code)
+Save as: collect_data.py
+Copy-paste the code I gave you earlier
+Repeat for train_model.py and detect_realtime.py
